@@ -10,3 +10,72 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#pole {
+    background-color: black;
+    width: 13px;
+    height: 70px;
+    margin-left: 450px;
+}
+#container {
+    background-color: black;
+    width: 68px;
+    height: 234px;
+    Margin-left: 422px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.light {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    padding: 0px;
+    cursor: pointer;
+    &.red {
+        background-color: red;
+    }
+    &.yellow {
+        background-color: yellow;
+    }
+    &.green {
+        background-color: green;
+    }
+}
+.glow-red {
+    box-shadow: 0px 0px 20px 10px red;
+}
+.glow-yellow {
+    box-shadow: 0px 0px 20px 10px yellow;
+}
+.glow-green {
+    box-shadow: 0px 0px 20px 10px green;
+}
+.cycleButton {
+    width: 200px;
+    margin-left: 45px;
+}
+.cycle-button {
+    border-radius: 10%;
+    color: #cccccc;
+    border: none;
+    padding:10px;
+    
+}
+.purpleButton {
+    margin-left: 30px;
+}
+.purple-button {
+    border-radius: 10%;
+    color: #cccccc;
+    background: purple;
+    border: none;
+    padding:10px;
+}
+.purple {
+    background-color: purple;
+}
+.glow-purple {
+    box-shadow: 0px 0px 20px 10px purple; 
+}
